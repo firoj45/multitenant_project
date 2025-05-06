@@ -68,9 +68,12 @@ multitenant_project/
   
   Body:
   {
-    "name": "Org A"
+  "tenant": 1,
+  "name": "Acme Corp"
   }
 7. Running Tests
   python manage.py test
 
 8. Postman collection added for all of the API's
+9. Admin Panel with filter
+10. DRF View
