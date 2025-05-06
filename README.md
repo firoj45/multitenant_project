@@ -76,4 +76,4 @@ multitenant_project/
 
 8. Postman collection added for all of the API's
 9. Admin Panel with filter
-10. DRF View
+10. DRF Views
