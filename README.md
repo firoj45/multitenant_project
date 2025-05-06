@@ -73,4 +73,4 @@ multitenant_project/
 7. Running Tests
   python manage.py test
 
-
+8. Postman collection added for all of the API's
