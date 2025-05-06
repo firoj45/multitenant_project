@@ -2,9 +2,9 @@
 
 This is a Django-based multi-tenant API application demonstrating a hierarchical structure:
 - **Tenant**
-  - **Organization**
-    - **Department**
-      - **Customer**
+- **Organization**
+- **Department**
+- **Customer**
 
 Authentication is handled via Token-based authentication. Each request must include a custom header for tenant domain.
 
