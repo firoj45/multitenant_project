@@ -1,6 +1,7 @@
 # Django Multi-Tenant API Project
 
 This is a Django-based multi-tenant API application demonstrating a hierarchical structure:
+
 - **Tenant**
 - **Organization**
 - **Department**
@@ -60,12 +61,12 @@ multitenant_project/
   Authorization: Token <your-token>
   X-Tenant-Domain: tenant1.com
   Example: Create Organization
-  
+
   POST /api/organizations/
   Headers:
     Authorization: Token abc123
     X-Tenant-Domain: tenant1.com
-  
+
   Body:
   {
   "tenant": 1,
@@ -74,6 +75,6 @@ multitenant_project/
 7. Running Tests
   python manage.py test
 
-8. Postman collection added for all of the API's
-9. Admin Panel with filter
-10. DRF Views
+8. Postman collection included
+9. Admin panel supports filtering
+10. DRF browsable interface available at /api/
